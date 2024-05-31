@@ -9,7 +9,7 @@ const LoginPage = ({ setIsAuthenticated }) => {
   const toast = useToast();
 
   const onSubmit = (data) => {
-    if (data.username === 'admin' && data.password === 'password') {
+    if (data.username === 'surendra' && data.password === '12345') {
       localStorage.setItem('authenticated', 'true');
       setIsAuthenticated(true);
       navigate('/sale-orders');
